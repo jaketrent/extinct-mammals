@@ -1,0 +1,29 @@
+{
+  "name": "extinct-mammals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaketrent/extinct-mammals.git"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/node-dev app/server.js",
+    "test": "node_modules/.bin/jasmine-node test"
+  },
+  "author": "jaketrent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaketrent/extinct-mammals/issues"
+  },
+  "homepage": "https://github.com/jaketrent/extinct-mammals",
+  "dependencies": {
+    "express": "~4.1.2",
+    "mongoose": "~3.8.9",
+    "body-parser": "~1.0.2"
+  },
+  "devDependencies": {
+    "node-dev": "~2.3.0",
+    "request": "~2.34.0",
+    "jasmine-node": "~1.14.3"
+  }
+}
